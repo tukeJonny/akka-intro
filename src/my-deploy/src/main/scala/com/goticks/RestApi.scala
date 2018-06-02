@@ -1,8 +1,11 @@
 package com.goticks
 
+import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
 
 import akka.actor._
+import akka.event.LoggingAdapter
 import akka.pattern.ask
 import akka.util.Timeout
 
@@ -11,15 +14,7 @@ import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server._
 
-class RestApi(system: ActorSystem, timeout: Timeout)
-    extends RestRoutes {
-  implicit val requestTimeout = timeout
-  implicit def executionContext = system.dispatcher
-
-  def createBoxOffice = system.actorOf(BoxOffice.props, BoxOffice.name)
-}
-
-trait RestRoutes extends BoxOfficeApi
+trait RestApi extends BoxOfficeApi
     with EventMarshalling {
   import StatusCodes._
 
@@ -88,7 +83,7 @@ trait RestRoutes extends BoxOfficeApi
 
 trait BoxOfficeApi {
   import BoxOffice._
-
+  def log: LoggingAdapter
   def createBoxOffice(): ActorRef
 
   implicit def executionContext: ExecutionContext
