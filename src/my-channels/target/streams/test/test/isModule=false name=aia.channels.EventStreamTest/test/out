@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0m[32mEventStreamTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mEventStream[0m[0m
+[0m[[0minfo[0m] [0m[32m- must distribute messages[0m[0m
+[0m[[0minfo[0m] [0m[32m- must monitor hierarchy[0m[0m
+[0m[[0minfo[0m] [0m[32m- must Ignore other messages[0m[0m
+[0m[[0minfo[0m] [0m[32m- must unsubscribe messages[0m[0m
+[0m[[0minfo[0m] [0m[32mOrderMessageBus[0m[0m
+[0m[[0minfo[0m] [0m[31m- must deliver Order messages *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: received unexpected message Order(me,Akka in Action,1)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:219)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.expectNoMsg_internal(TestKit.scala:633)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.expectNoMsg(TestKit.scala:629)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.expectNoMsg$(TestKit.scala:629)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectNoMsg(TestKit.scala:831)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at aia.channels.EventStreamTest.$anonfun$new$7(EventStreamTest.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- must deliver order messages when multiple subscriber[0m[0m

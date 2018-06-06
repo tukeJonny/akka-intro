@@ -1,0 +1,382 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes
+compile options:
+7 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -Xlint
+3 -> -Ywarn-unused
+4 -> -Ywarn-dead-code
+5 -> -feature
+6 -> -language:_
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.3
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+19 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart$delayedInit$body.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$$anonfun$receive$1.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$Greet$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$WhoToGreet$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$WhoToGreet.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$$anonfun$receive$2.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$Greeting$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$Greeting.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/EchoActor$$anonfun$receive$1.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/EchoActor.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Order$.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Order.class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/OrderMessageBus.class
+binary dependencies:
+11 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> /root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> /root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> /home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+19 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.AkkaQuickstart
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.AkkaQuickstart$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.AkkaQuickstart$delayedInit$body
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter$$anonfun$receive$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter$Greet$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter$WhoToGreet
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Greeter$WhoToGreet$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Printer
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Printer$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Printer$$anonfun$receive$2
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Printer$Greeting
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia.channels.Printer$Greeting$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> aia.channels.EchoActor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> aia.channels.EchoActor$$anonfun$receive$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> aia.channels.Order
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> aia.channels.Order$
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> aia.channels.OrderMessageBus
+used names:
+217 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> !
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> &&
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> +
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> <byname>
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> <init>
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ==
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> A
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> A1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> AbstractFunction1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> AbstractPartialFunction
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Actor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ActorLogging
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ActorSystem
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> AkkaQuickstart
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Any
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> AnyRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> App
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> B1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Boolean
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Class
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ClassTag
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Function1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Greet
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Greeter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Greeting
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> IndexOutOfBoundsException
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Int
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Iterator
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> LoggingAdapter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> None
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Nothing
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Object
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Option
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Predef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Printer
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Product
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Props
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ScalaActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ScalaRunTime
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Serializable
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Some
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> String
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> T
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> T0
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> Unit
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> WhoToGreet
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> _$7
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> _hashCode
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> _root_
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> _toString
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> actor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> actorOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> actorRef2Scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> aia
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> akka
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> apply
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> asInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> channels
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> eq
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> goodDayGreeter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> greeting
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> greeting_=
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> helloGreeter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> howdyGreeter
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> info
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> isInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> log
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> materializeClassTag
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> message
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> package
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> printer
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> printerActor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> props
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$2
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$3
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$4
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$5
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$6
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$7
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> qual$8
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> reflect
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> runtime
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> self
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> sender
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> system
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> toString
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> typedProductIterator
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> unchecked
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> who
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$10
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$11
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$12
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$13
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$14
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$15
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$16
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$2
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$3
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$4
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$5
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$6
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$7
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$8
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> x$9
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> ||
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> !
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> <init>
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> A1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> AbstractPartialFunction
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Actor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> ActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Any
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> AnyRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> B1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Boolean
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> EchoActor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Function1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Nothing
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Object
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> ScalaActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> T0
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> Unit
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> actor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> actorRef2Scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> aia
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> akka
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> apply
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> asInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> channels
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> isInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> package
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> self
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> sender
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> unchecked
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> &&
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> <init>
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> ==
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> A
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> AbstractFunction3
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Any
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> AnyRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Boolean
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> IndexOutOfBoundsException
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Int
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Iterator
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> None
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Nothing
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Object
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Option
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Order
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Predef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Product
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> ScalaRunTime
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Serializable
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Some
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Statics
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> String
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> T
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> T0
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> T1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> T2
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> T3
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> Tuple3
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> _root_
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> _toString
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> aia
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> anyHash
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> asInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> channels
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> customerId
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> eq
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> finalizeHash
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> isInstanceOf
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> mix
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> number
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> package
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> productId
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> runtime
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> toString
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> typedProductIterator
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> ||
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> !
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> <init>
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> >
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> ActorEventBus
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> ActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Any
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Boolean
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Event
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> EventBus
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Int
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> LookupClassification
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Object
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Order
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> OrderMessageBus
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> ScalaActorRef
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Subscriber
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> Unit
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> actor
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> actorRef2Scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> aia
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> akka
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> channels
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> event
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> number
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> package
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> qual$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> scala
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> subscriber
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> x$1
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> x$2
+product stamps:
+19 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart$delayedInit$body.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/AkkaQuickstart.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/EchoActor$$anonfun$receive$1.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/EchoActor.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$$anonfun$receive$1.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$Greet$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$WhoToGreet$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter$WhoToGreet.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Greeter.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Order$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Order.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/OrderMessageBus.class -> lastModified(1528254809000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$$anonfun$receive$2.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$Greeting$.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer$Greeting.class -> lastModified(1528243766000)
+/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes/aia/channels/Printer.class -> lastModified(1528243766000)
+source stamps:
+4 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> hash(9c5661598ec83c14c8df07b43f533e6b432d3084)
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> hash(7eb8ec979a9cb5424d0c15b9bb814f7dca9ad6c1)
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> hash(9cda3e0c476867a9b9418b058519abdc69a4cef8)
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> hash(5cb9fc96f2764db397c6446891c93a94b8529f36)
+binary stamps:
+3 items
+/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar -> lastModified(1502371060000)
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar -> lastModified(1500979666000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1509141854000)
+class names:
+3 items
+/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar -> akka.event.ActorEventBus
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar -> scala.Boolean
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+4 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwRuDMWAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCjO5qddAAEc2VsZnNxAH4AC7OVAQp0AAdjb250ZXh0dXEAfgAJAAAAQXNxAH4AC7yxAUx0AAdwcmludGVyc3EAfgALBp0+rnQABm5vdGlmeXNxAH4AC1n2LqR0AAd1bmFwcGx5c3EAfgAL7wlnonQAB1JlY2VpdmVzcQB+AAvFbeK/dAAMaG93ZHlHcmVldGVyc3EAfgALs8ypOnQABHdhaXRzcQB+AAurHuYhdAANJGFzSW5zdGFuY2VPZnNxAH4AC4NBvSJ0AAZzeXN0ZW1zcQB+AAtWNQordAAHY29tcG9zZXNxAH4AC2WaY0l0AAdHcmVldGVyc3EAfgALo3QizHQADHByb2R1Y3RBcml0eXNxAH4AC1mXUTN0AAZlcXVhbHNzcQB+AAv03SXNdAAIR3JlZXRpbmdzcQB+AAuqPMbgdAAMYXNJbnN0YW5jZU9mc3EAfgALP99Vt3QADmV4ZWN1dGlvblN0YXJ0c3EAfgALiq+FqXQABUdyZWV0c3EAfgAL1D1RcHQADHN5bmNocm9uaXplZHNxAH4AC4vD12F0AA0kaXNJbnN0YW5jZU9mc3EAfgALrOJzNHQAB2FuZFRoZW5zcQB+AAvPS76udAAHcmVjZWl2ZXNxAH4AC6+hWI90AA5nb29kRGF5R3JlZXRlcnNxAH4AC3Se7Cx0AApwcmVSZXN0YXJ0c3EAfgALB55MkHQADWFyb3VuZFJlY2VpdmVzcQB+AAuVTnYBdAAIY2FuRXF1YWxzcQB+AAs2I+jFdAALcG9zdFJlc3RhcnRzcQB+AAvat8sxdAAEbWFpbnNxAH4AC36Xaut0AAhwb3N0U3RvcHNxAH4AC9yH3WB0AAdQcmludGVyc3EAfgALT3kYS3QADXByb2R1Y3RQcmVmaXhzcQB+AAvxu3OrdAAJbm90aWZ5QWxsc3EAfgAL0cfWm3QAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALUAOX13QADGlzSW5zdGFuY2VPZnNxAH4AC2d/d1F0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALN+xdIHQADmFyb3VuZFBvc3RTdG9wc3EAfgALrcGn23QABjxpbml0PnNxAH4AC8FM3M50AAhwcmVTdGFydHNxAH4ACx2BOuh0AAl1bmhhbmRsZWRzcQB+AAsy/U15dAAFYXBwbHlzcQB+AAsNLjZndAADd2hvc3EAfgALnzoOgnQACldob1RvR3JlZXRzcQB+AAt9i7VPdAACPT1zcQB+AAtpMSi2dAAFY2xvbmVzcQB+AAslCkfCdAAGJGluaXQkc3EAfgALEG4tn3QACGdyZWV0aW5nc3EAfgALbXGx2HQABGNvcHlzcQB+AAvhParXdAAGc2VuZGVyc3EAfgALmaEZAXQACHRvU3RyaW5nc3EAfgALoD2gj3QABGFyZ3NzcQB+AAttaW54dAACIT1zcQB+AAsXl3JLdAAIZ2V0Q2xhc3NzcQB+AAu+7qV7dAAOY29weSRkZWZhdWx0JDFzcQB+AAsm/BlXdAAFcHJvcHNzcQB+AAt13MOEdAACbmVzcQB+AAujVxVadAAMaGVsbG9HcmVldGVyc3EAfgALutz5enQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACy9NB810AAJlcXNxAH4ACz+teil0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAvkhwHfdAADbG9nc3EAfgALf1RwiXQAC2RlbGF5ZWRJbml0c3EAfgALg70ji3QADkFra2FRdWlja3N0YXJ0c3EAfgALFMIIFnQAAiMjc3EAfgALpD6zcXQACGZpbmFsaXplc3EAfgALE1aYhHQADnByb2R1Y3RFbGVtZW50c3EAfgAL9TGf+HQACGhhc2hDb2Rlc3EAfgALL56CaHQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AnXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFGFpYS5jaGFubmVscy5HcmVldGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgC1c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJ1MAAlpbmhlcml0ZWRxAH4AnUwAB3BhcmVudHNxAH4AnXhxAH4AunNxAH4AtXVxAH4AmAAAAABzcQB+ALV1cQB+AJgAAAAAc3EAfgC1dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC5dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDSdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDTc3EAfgDGdAADQW55c3EAfgDKc3EAfgDNdXEAfgDQAAAAAnNxAH4A0nQABXNjYWxhcQB+ANlzcQB+AJpxAH4Ap3VxAH4AqAAAAABzcQB+AKoAdAAUYWlhLmNoYW5uZWxzLkdyZWV0ZXJ1cQB+AK0AAAAAfnEAfgCvdAAIQ2xhc3NEZWZ1cQB+ALMAAAAAc3EAfgC1cQB+ALtzcQB+ALVzcQB+AL1zcQB+ALV1cQB+AJgAAAAAc3EAfgC1dXEAfgCYAAAAAHNxAH4AtXVxAH4AxAAAAANzcQB+AMZ0AAVBY3RvcnNxAH4AynNxAH4AzXVxAH4A0AAAAANzcQB+ANJ0AARha2thc3EAfgDSdAAFYWN0b3JxAH4A2XNxAH4AxnEAfgDJc3EAfgDKc3EAfgDNdXEAfgDQAAAAA3NxAH4A0nEAfgDVc3EAfgDScQB+ANdxAH4A2XNxAH4AxnEAfgDbc3EAfgDKc3EAfgDNdXEAfgDQAAAAAnNxAH4A0nEAfgDgcQB+ANlzcQB+AJpxAH4Ap3VxAH4AqAAAAABzcQB+AKoAdAAUYWlhLmNoYW5uZWxzLlByaW50ZXJ1cQB+AK0AAAAAcQB+ALF1cQB+ALMAAAAAc3EAfgC1cQB+ALtzcQB+ALVzcQB+AL1zcQB+ALV1cQB+AJgAAAAAc3EAfgC1dXEAfgCYAAAAAHNxAH4AtXVxAH4AxAAAAAJzcQB+AMZxAH4AyXNxAH4AynNxAH4AzXVxAH4A0AAAAANzcQB+ANJxAH4A1XNxAH4A0nEAfgDXcQB+ANlzcQB+AMZxAH4A23NxAH4AynNxAH4AzXVxAH4A0AAAAAJzcQB+ANJxAH4A4HEAfgDZc3EAfgCacQB+AKd1cQB+AKgAAAAAc3EAfgCqAHQAFGFpYS5jaGFubmVscy5QcmludGVydXEAfgCtAAAAAHEAfgDmdXEAfgCzAAAAAHNxAH4AtXEAfgC7c3EAfgC1c3EAfgC9c3EAfgC1dXEAfgCYAAAAAHNxAH4AtXVxAH4AmAAAAABzcQB+ALV1cQB+AMQAAAAEc3EAfgDGdAAMQWN0b3JMb2dnaW5nc3EAfgDKc3EAfgDNdXEAfgDQAAAAA3NxAH4A0nQABGFra2FzcQB+ANJ0AAVhY3RvcnEAfgDZc3EAfgDGdAAFQWN0b3JxAH4BMXNxAH4AxnEAfgDJc3EAfgDKc3EAfgDNdXEAfgDQAAAAA3NxAH4A0nEAfgDVc3EAfgDScQB+ANdxAH4A2XNxAH4AxnEAfgDbc3EAfgDKc3EAfgDNdXEAfgDQAAAAAnNxAH4A0nEAfgDgcQB+ANlzcQB+AJpxAH4Ap3VxAH4AqAAAAABzcQB+AKoAdAAbYWlhLmNoYW5uZWxzLkFra2FRdWlja3N0YXJ0dXEAfgCtAAAAAHEAfgCxdXEAfgCzAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNxAH4AtXEAfgC7c3EAfgC1c3EAfgC9c3EAfgC1dXEAfgCYAAAAAHNxAH4AtXVxAH4AmAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AnnEAfgCndXEAfgCoAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4BVXhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AAxMAAV2YWx1ZXEAfgAMeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+AMZ0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AynNxAH4AzXVxAH4A0AAAAAJzcQB+ANJxAH4A4HEAfgDZc3EAfgCqAHEAfgBFdXEAfgCtAAAAAHNxAH4AxnQABFVuaXRxAH4BZHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AVV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+ALB0AAVQbGFpbnEAfgBxc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgDHWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgC5c3EAfgDGdAAFQXJyYXlxAH4BZHVxAH4AxAAAAAFzcQB+AMZ0AAZTdHJpbmdzcQB+AMpzcQB+AM11cQB+ANAAAAADc3EAfgDScQB+ANVzcQB+ANJxAH4A13EAfgDZc3EAfgC1dXEAfgDEAAAABHNxAH4AxnQAA0FwcHEAfgFkc3EAfgDGdAALRGVsYXllZEluaXRxAH4BZHNxAH4AxnEAfgDJcQB+AYFzcQB+AMZxAH4A23EAfgFkdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAADYWlhc3EAfgGQdAAMYWlhLmNoYW5uZWxzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFj0m1A2nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEsvaG9tZS91YnVudHUvd29ya3NwYWNlL2Fra2EtaW50cm8vc3JjL215LWNoYW5uZWxzL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABScVmFZjsg8FMjfB7Q/Uz5rQy0whA==
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwI+rjxQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDw/AKvdAAEc2VsZnNxAH4AC5XIcxp0AAdjb250ZXh0dXEAfgAJAAAAJHNxAH4ACwYXq4J0AAZub3RpZnlzcQB+AAtBdNzAdAAHUmVjZWl2ZXNxAH4AC7XDMcB0AAR3YWl0c3EAfgALy+HWbXQADSRhc0luc3RhbmNlT2ZzcQB+AAvvvn2/dAAGZXF1YWxzc3EAfgALXKgHbHQADGFzSW5zdGFuY2VPZnNxAH4ACzfckER0AAxzeW5jaHJvbml6ZWRzcQB+AAu039TXdAANJGlzSW5zdGFuY2VPZnNxAH4AC/YFIDh0AAdyZWNlaXZlc3EAfgAL+OLwHXQACnByZVJlc3RhcnRzcQB+AAu+P8pGdAANYXJvdW5kUmVjZWl2ZXNxAH4AC8RXITp0AAtwb3N0UmVzdGFydHNxAH4AC85Rqql0AAhwb3N0U3RvcHNxAH4AC0AN3Ed0AAlub3RpZnlBbGxzcQB+AAvdQtM+dAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAvXsWgIdAAMaXNJbnN0YW5jZU9mc3EAfgALR7bHJnQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAv9DLOTdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAs2Xj6adAAGPGluaXQ+c3EAfgALo8kweHQACHByZVN0YXJ0c3EAfgALEoSIvnQACXVuaGFuZGxlZHNxAH4AC5liqC50AAI9PXNxAH4AC8FHHw90AAVjbG9uZXNxAH4AC6Z7AG50AAYkaW5pdCRzcQB+AAs6/ZoidAAGc2VuZGVyc3EAfgALG1ru03QACHRvU3RyaW5nc3EAfgALdhszEHQAAiE9c3EAfgALY/BnCHQACGdldENsYXNzc3EAfgAL33mit3QAAm5lc3EAfgALZ1xJT3QACUVjaG9BY3RvcnNxAH4AC4okeO10ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAtyhnLjdAACZXFzcQB+AAspUrC2dAACIyNzcQB+AAth4FbMdAAIZmluYWxpemVzcQB+AAsap38CdAAIaGFzaENvZGVzcQB+AAsyijx3dAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBjeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAWYWlhLmNoYW5uZWxzLkVjaG9BY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB7c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGNMAAlpbmhlcml0ZWRxAH4AY0wAB3BhcmVudHNxAH4AY3hxAH4AgHNxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cQB+AF4AAAAAc3EAfgB7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AJh0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMdAAGT2JqZWN0c3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHQABGphdmFzcQB+AJh0AARsYW5ncQB+AJ9zcQB+AIx0AANBbnlzcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYdAAFc2NhbGFxAH4An3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAA2FpYXNxAH4AsnQADGFpYS5jaGFubmVsc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY9JtQNp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABLL2hvbWUvdWJ1bnR1L3dvcmtzcGFjZS9ha2thLWludHJvL3NyYy9teS1jaGFubmVscy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUfrjsl5qctUJNDBW5u4FPfcqa1sE=
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwEfuHVQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuA58znQABm5vdGlmeXNxAH4ADDRPdvF0AAZudW1iZXJzcQB+AAxDs4NLdAAEd2FpdHNxAH4ADE+b1KN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADPnJXyN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMpXIHOXQADHByb2R1Y3RBcml0eXNxAH4ADLLlgW10AAZlcXVhbHNzcQB+AAwhWzPDdAAMYXNJbnN0YW5jZU9mc3EAfgAMY0Jn0nQADHN5bmNocm9uaXplZHNxAH4ADLV6+Xt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMqn8SQ3QACGNhbkVxdWFsc3EAfgAMx7XIdHQADXByb2R1Y3RQcmVmaXhzcQB+AAyHPiavdAAJbm90aWZ5QWxsc3EAfgAMo4O7cnQADGlzSW5zdGFuY2VPZnNxAH4ADBaqp7B0AApjdXN0b21lcklkc3EAfgAMv3b6OnQABjxpbml0PnNxAH4ADHiIix10AAI9PXNxAH4ADPeslZt0AAVjbG9uZXNxAH4ADCWWxQt0AAYkaW5pdCRzcQB+AAx9JH+8dAAOY29weSRkZWZhdWx0JDNzcQB+AAxZ3Op9dAAEY29weXNxAH4ADL3LB5l0AAh0b1N0cmluZ3NxAH4ADB93f+h0AAlwcm9kdWN0SWRzcQB+AAyb4y7JdAACIT1zcQB+AAwgRc0mdAAFT3JkZXJzcQB+AAzIWxWadAAIZ2V0Q2xhc3NzcQB+AAwG4+tadAAOY29weSRkZWZhdWx0JDFzcQB+AAwq6xKndAACbmVzcQB+AAyTjigldAACZXFzcQB+AAz0TPgXdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMXXIXmHQAAiMjc3EAfgAMO97BBXQACGZpbmFsaXplc3EAfgAM36D+zXQADnByb2R1Y3RFbGVtZW50c3EAfgAMcjDpjHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AW3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEmFpYS5jaGFubmVscy5PcmRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB3dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB3c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCRc3EAfgCEcQB+AIdzcQB+AIhzcQB+AIt1cQB+AI4AAAADc3EAfgCQdAAEamF2YXNxAH4AkHQAAmlvcQB+AJVzcQB+AIR0AAdQcm9kdWN0cQB+AIpzcQB+AIR0AAZFcXVhbHNxAH4AinNxAH4AhHQABk9iamVjdHNxAH4AiHNxAH4Ai3VxAH4AjgAAAANzcQB+AJBxAH4Am3NxAH4AkHQABGxhbmdxAH4AlXNxAH4AhHQAA0FueXEAfgCKdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAADYWlhc3EAfgCudAAMYWlhLmNoYW5uZWxzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFj0m1A2nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEsvaG9tZS91YnVudHUvd29ya3NwYWNlL2Fra2EtaW50cm8vc3JjL215LWNoYW5uZWxzL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSc2j4MR2hnqblBiwWFGavcaaTO+A==
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw4PQjiQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwbjgAc3QABm5vdGlmeXNxAH4ADONHDg90AA9PcmRlck1lc3NhZ2VCdXNzcQB+AAz1e2vGdAAEd2FpdHNxAH4ADLraCz50AA0kYXNJbnN0YW5jZU9mc3EAfgAMix83wXQABmVxdWFsc3NxAH4ADGTmUHt0AAVFdmVudHNxAH4ADKpHLJB0AAtzdWJzY3JpYmVyc3NxAH4ADNOYdcN0AApTdWJzY3JpYmVyc3EAfgAMUc3RoHQADGFzSW5zdGFuY2VPZnNxAH4ADFBI3et0AAxzeW5jaHJvbml6ZWRzcQB+AAzI4i72dAASY29tcGFyZVN1YnNjcmliZXJzc3EAfgAMgX6sJnQADSRpc0luc3RhbmNlT2ZzcQB+AAzL/Mn4dAAJc3Vic2NyaWJlc3EAfgAMwbp4y3QACW5vdGlmeUFsbHNxAH4ADM9JSyd0AAxpc0luc3RhbmNlT2ZzcQB+AAwR5RfOdAAHcHVibGlzaHNxAH4ADIdTlBZ0AAY8aW5pdD5zcQB+AAx+V/14dAACPT1zcQB+AAysqePsdAAFY2xvbmVzcQB+AAyL3MmndAALdW5zdWJzY3JpYmVzcQB+AAxA7XU+dAAKQ2xhc3NpZmllcnNxAH4ADJ1GiBt0AAYkaW5pdCRzcQB+AAzWc5/3dAAIdG9TdHJpbmdzcQB+AAzSX3/vdAACIT1zcQB+AAytVRAQdAAIZ2V0Q2xhc3NzcQB+AAzu4SfddAACbmVzcQB+AAwKSe2VdAAIY2xhc3NpZnlzcQB+AAx9qmdhdAACZXFzcQB+AAwT5TxEdAAHbWFwU2l6ZXNxAH4ADMBouWJ0AAIjI3NxAH4ADH6gp4V0AAhmaW5hbGl6ZXNxAH4ADDK9hvZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABxhaWEuY2hhbm5lbHMuT3JkZXJNZXNzYWdlQnVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AG9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AV0wACWluaGVyaXRlZHEAfgBXTAAHcGFyZW50c3EAfgBXeHEAfgB0c3EAfgBvdXEAfgBSAAAAAHNxAH4Ab3VxAH4AUgAAAABzcQB+AG91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHN0AA1BY3RvckV2ZW50QnVzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBzc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCMdAAFZXZlbnRzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjXNxAH4AgHQAFExvb2t1cENsYXNzaWZpY2F0aW9ucQB+AIZzcQB+AIB0AAhFdmVudEJ1c3EAfgCGc3EAfgCAdAAGT2JqZWN0c3EAfgCEc3EAfgCHdXEAfgCKAAAAA3NxAH4AjHQABGphdmFzcQB+AIx0AARsYW5ncQB+AJNzcQB+AIB0AANBbnlzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMdAAFc2NhbGFxAH4Ak3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAA2FpYXNxAH4AqnQADGFpYS5jaGFubmVsc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY9MVwiF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABLL2hvbWUvdWJ1bnR1L3dvcmtzcGFjZS9ha2thLWludHJvL3NyYy9teS1jaGFubmVscy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUXLn8lvJ2TbOXxkRokck6lLhSnzY=
+external apis:
+0 items
+source infos:
+4 items
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/AkkaQuickstart.scala -> 
+AAAAAAAAAAA=
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/DeadLetterControl.scala -> 
+AAAAAAAAAAA=
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/Orders.scala -> 
+AAAAAAAAAAA=
+/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY9Jq7rt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9ob21lL3VidW50dS93b3Jrc3BhY2UvYWtrYS1pbnRyby9zcmMvbXktY2hhbm5lbHMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY9JtQNp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9ob21lL3VidW50dS93b3Jrc3BhY2UvYWtrYS1pbnRyby9zcmMvbXktY2hhbm5lbHMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABY9MVwiF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9ob21lL3VidW50dS93b3Jrc3BhY2UvYWtrYS1pbnRyby9zcmMvbXktY2hhbm5lbHMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

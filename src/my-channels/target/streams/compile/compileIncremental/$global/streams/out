@@ -1,0 +1,78 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 51166ce1, interfacing (CompilerInterface) with Scala compiler version 2.12.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-dead-code[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-language:_[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/ubuntu/workspace/akka-intro/src/my-channels/target/scala-2.12/classes:/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe/config/bundles/config-1.3.1.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.4.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.23.jar:/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.12/jars/akka-remote_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.4.jar:/root/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.1.jar:/root/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.1.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.4.jar:/root/.ivy2/cache/io.netty/netty/bundles/netty-3.10.6.Final.jar:/root/.ivy2/cache/io.aeron/aeron-driver/jars/aeron-driver-1.2.5.jar:/root/.ivy2/cache/io.aeron/aeron-client/jars/aeron-client-1.2.5.jar:/root/.ivy2/cache/org.agrona/agrona/jars/agrona-0.9.5.jar:/root/.ivy2/cache/com.typesafe.akka/akka-multi-node-testkit_2.12/jars/akka-multi-node-testkit_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/jars/akka-testkit_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.12/jars/akka-contrib_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.12/jars/akka-cluster_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.12/jars/akka-cluster-tools_2.12-2.5.4.jar:/root/.ivy2/cache/com.typesafe.akka/akka-persistence_2.12/jars/akka-persistence_2.12-2.5.4.jar[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:6: not found: type Date[0m
+[0m[[31merror[0m] [0mcase class StateEvent(time: Date, state: String)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:7: not found: type Date[0m
+[0m[[31merror[0m] [0mcase class Connection(time: Date, connected: Boolean)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:9: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass StateEndpoint extends Actor {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:10: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:12: not found: value context[0m
+[0m[[31merror[0m] [0m      context.system.eventStream.publish(new StateEvent(time, "Connected"))[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:15: not found: value context[0m
+[0m[[31merror[0m] [0m      context.system.eventStream.publish(new StateEvent(time, "Disconnected"))[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:20: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass SystemLog extends Actor {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:21: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:26: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass SystemMonitor extends Actor {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:27: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:22: pattern var event in value $anonfun is never used; `event@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case event:StateEvent =>[0m
+[0m[[33mwarn[0m] [0m         ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-channels/src/main/scala/aia/channels/StateEndpoint.scala:28: pattern var event in value $anonfun is never used; `event@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case event:StateEvent =>[0m
+[0m[[33mwarn[0m] [0m         ^[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
+[0m[[31merror[0m] [0m10 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
