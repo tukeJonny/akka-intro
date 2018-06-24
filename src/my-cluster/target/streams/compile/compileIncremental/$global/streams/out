@@ -1,0 +1,169 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ReceptionistRouterLookup.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ReceptionistRouterLookup.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ReceptionistRouterLookup.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ReceptionistRouterLookup.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala, /home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources to /home/ubuntu/workspace/akka-intro/src/my-cluster/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4b8f880a, interfacing (CompilerInterface) with Scala compiler version 2.12.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-dead-code[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-language:_[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/ubuntu/workspace/akka-intro/src/my-cluster/target/scala-2.12/classes:/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.13.jar:/root/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.13.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.12/jars/akka-remote_2.12-2.5.13.jar:/root/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.13.jar:/root/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.13.jar:/root/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar:/root/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.3.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.0.jar:/root/.ivy2/cache/io.netty/netty/bundles/netty-3.10.6.Final.jar:/root/.ivy2/cache/io.aeron/aeron-driver/jars/aeron-driver-1.9.1.jar:/root/.ivy2/cache/io.aeron/aeron-client/jars/aeron-client-1.9.1.jar:/root/.ivy2/cache/org.agrona/agrona/jars/agrona-0.9.17.jar:/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.12/jars/akka-cluster_2.12-2.5.13.jar:/root/.ivy2/cache/com.typesafe.akka/akka-multi-node-testkit_2.12/jars/akka-multi-node-testkit_2.12-2.5.13.jar:/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/jars/akka-testkit_2.12-2.5.13.jar:/root/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.10.jar:/root/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.10.jar[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:18: not found: value member起動[0m
+[0m[[31merror[0m] [0m      log.info(s"$member起動")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:20: not found: value member終了[0m
+[0m[[31merror[0m] [0m      log.info(s"$member終了")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:23: not found: value memberは以前グレースフルに終了しています[0m
+[0m[[31merror[0m] [0m        log.info(s"$memberは以前グレースフルに終了しています.クラスタから削除.")[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:25: not found: value memberは到達不能になってからダウンしました[0m
+[0m[[31merror[0m] [0m        log.info(s"$memberは到達不能になってからダウンしました.クラスタから削除.")[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:27: not found: value memberは到達不能になりました[0m
+[0m[[31merror[0m] [0m      log.info(s"$memberは到達不能になりました")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:29: not found: value memberは到達可能になりました[0m
+[0m[[31merror[0m] [0m      log.info(s"$memberは到達可能になりました")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:17: pattern var member in method applyOrElse is never used; `member@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case MemberUp(member) =>[0m
+[0m[[33mwarn[0m] [0m                  ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:19: pattern var member in method applyOrElse is never used; `member@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case MemberExited(member) =>[0m
+[0m[[33mwarn[0m] [0m                      ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:21: pattern var member in method applyOrElse is never used; `member@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case MemberRemoved(member, previousState) =>[0m
+[0m[[33mwarn[0m] [0m                       ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:26: pattern var member in method applyOrElse is never used; `member@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case UnreachableMember(member) =>[0m
+[0m[[33mwarn[0m] [0m                           ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/ClusterDomainEventListener.scala:28: pattern var member in method applyOrElse is never used; `member@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case ReachableMember(member) =>[0m
+[0m[[33mwarn[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:63: not found: value StartJob[0m
+[0m[[31merror[0m] [0m    case StartJob(jobName, text) =>[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:71: not found: value router[0m
+[0m[[31merror[0m] [0m        router, // ルーター[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:86: not found: value Enlist[0m
+[0m[[31merror[0m] [0m    case Enlist(worker) =>[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:91: not found: value NextTask[0m
+[0m[[31merror[0m] [0m    case NextTask =>[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:101: not found: value TaskResult[0m
+[0m[[31merror[0m] [0m    case TaskResult(countMap) =>[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:113: not found: value MergeResults[0m
+[0m[[31merror[0m] [0m        self ! MergeResults // Reduce処理実行を自分に要求[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:136: not found: value MergeResults[0m
+[0m[[31merror[0m] [0m    case MergeResults =>[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobMaster.scala:19: Unused import[0m
+[0m[[33mwarn[0m] [0m  import JobMaster._[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:35: value props is not a member of object aia.cluster.words.JobMaster[0m
+[0m[[31merror[0m] [0m    context.actorOf(JobMaster.props, name)[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:43: value StartJob is not a member of object aia.cluster.words.JobMaster[0m
+[0m[[31merror[0m] [0m  import JobMaster.StartJob[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:69: reassignment to val[0m
+[0m[[31merror[0m] [0m      jobs = jobs + job[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:85: reassignment to val[0m
+[0m[[31merror[0m] [0m        jobs = jobs - job[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:111: reassignment to val[0m
+[0m[[31merror[0m] [0m          retries = retries + retries.get(name).map(r =>[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:43: Unused import[0m
+[0m[[33mwarn[0m] [0m  import JobMaster.StartJob[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:68: local val job in method applyOrElse is never used[0m
+[0m[[33mwarn[0m] [0m      val job = Job(name, text, sender, jobMaster)[0m
+[0m[[33mwarn[0m] [0m          ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobReceptionist.scala:60: pattern var jr in method applyOrElse is never used; `jr@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case jr @ JobRequest(name, text) =>[0m
+[0m[[33mwarn[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:59: not found: value Enlist[0m
+[0m[[31merror[0m] [0m      master ! Enlist(self)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:61: not found: value NextTask[0m
+[0m[[31merror[0m] [0m      master ! NextTask[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:72: not found: value NextTask[0m
+[0m[[31merror[0m] [0m      master ! NextTask // 再度タスクを要求[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:75: reassignment to val[0m
+[0m[[31merror[0m] [0m      processed = processed + 1[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:76: not found: value TaskResult[0m
+[0m[[31merror[0m] [0m      master ! TaskResult(countMap)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:77: not found: value NextTask[0m
+[0m[[31merror[0m] [0m      master ! NextTask[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:22: Unused import[0m
+[0m[[33mwarn[0m] [0m  import JobMaster._[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:83: pattern var master in method applyOrElse is never used; `master@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case Terminated(master) =>[0m
+[0m[[33mwarn[0m] [0m                    ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/JobWorker.scala:94: pattern var master in method applyOrElse is never used; `master@_' suppresses this warning[0m
+[0m[[33mwarn[0m] [0m    case Terminated(master) =>[0m
+[0m[[33mwarn[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:13: not found: value system[0m
+[0m[[31merror[0m] [0m  println(s"Starting node with roles: ${Cluster(system).selfRoles}")[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:15: not found: value system[0m
+[0m[[31merror[0m] [0m  if (system.settings.config.getStringList("akka.cluster.roles").contains("master")) {[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:17: not found: value system[0m
+[0m[[31merror[0m] [0m    Cluster(system).registerOnMemberUp {[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:19: not found: value system[0m
+[0m[[31merror[0m] [0m      val receptionist = system.actorOf(Props[JobReceptionist], "receptionist")[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:36: not found: value system[0m
+[0m[[31merror[0m] [0m      system.actorOf(Props(new ClusterDomainEventListener), "cluster-listener")[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:5: Unused import[0m
+[0m[[33mwarn[0m] [0mimport akka.actor.{Props, ActorSystem}[0m
+[0m[[33mwarn[0m] [0m                          ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:8: Unused import[0m
+[0m[[33mwarn[0m] [0mimport JobReceptionist.JobRequest[0m
+[0m[[33mwarn[0m] [0m                       ^[0m
+[0m[[33mwarn[0m] [0m/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/scala/aia/cluster/words/Main.scala:23: local val text in value <local Main> is never used[0m
+[0m[[33mwarn[0m] [0m      val text = List([0m
+[0m[[33mwarn[0m] [0m          ^[0m
+[0m[[33mwarn[0m] [0m15 warnings found[0m
+[0m[[31merror[0m] [0m29 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

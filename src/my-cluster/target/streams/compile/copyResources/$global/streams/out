@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/resources/logback.xml,/home/ubuntu/workspace/akka-intro/src/my-cluster/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/ubuntu/workspace/akka-intro/src/my-cluster/src/main/resources/seed.conf,/home/ubuntu/workspace/akka-intro/src/my-cluster/target/scala-2.12/classes/seed.conf)[0m
